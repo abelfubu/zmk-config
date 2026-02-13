@@ -12,20 +12,7 @@
 
 / {
     chosen { zmk,physical-layout = &default_layout; };
-};
 
-/ {
-    mouse_move {
-        compatible = "zmk,input-listener";
-        device = <&virtual_input>;
-    };
-
-    virtual_input: virtual_input {
-        compatible = "zmk,virtual-input";
-    };
-};
-
-/ {
     keymap {
         compatible = "zmk,keymap";
 
