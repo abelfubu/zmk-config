@@ -28,10 +28,10 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB                &kp Q  &kp W  &kp E      &kp R  &kp T      &tog 4     &kp C_PP  &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&mt LEFT_SHIFT ESCAPE  &kp A  &kp S  &kp D      &kp F  &kp G      &kp SPACE  &kp RALT  &kp H    &kp J  &kp K      &kp L    &kp SEMI  &mt RIGHT_SHIFT SINGLE_QUOTE
-&kp LEFT_GUI           &kp Z  &kp X  &kp C      &kp V  &kp B                           &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                                     &kp LCTRL  &mo 1  &kp SPACE                       &kp RET  &mo 2  &kp RALT
+&mt LEFT_ALT TAB       &kp Q  &kp W  &kp E      &kp R  &kp T       &tog 4     &kp C_PP  &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&mt LEFT_SHIFT ESCAPE  &kp A  &kp S  &kp D      &kp F  &kp G       &kp SPACE  &kp RALT  &kp H      &kp J  &kp K      &kp L    &kp SEMI  &mt RIGHT_SHIFT SINGLE_QUOTE
+&kp LEFT_GUI           &kp Z  &kp X  &kp C      &kp V  &kp B                            &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
+                                     &kp LCTRL  &mo 1  &kp RETURN                       &kp SPACE  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
@@ -49,7 +49,7 @@
             bindings = <
 &trans  &kp N1            &kp N2            &kp N3            &kp N4            &kp N5          &kp LCTRL  &kp K_VOLUME_UP    &kp N6        &kp N7           &kp N8       &kp N9         &kp N0  &trans
 &trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)      &kp LALT   &kp K_VOLUME_DOWN  &kp LEFT      &kp DOWN         &kp UP       &kp RIGHT      &trans  &trans
-&trans  &bt BT_CLR        &rgb_ug RGB_TOG   &trans            &trans            &studio_unlock                                &kp LG(LEFT)  &kp LG(LS(TAB))  &kp LG(TAB)  &kp LG(RIGHT)  &trans  &trans
+&trans  &bt BT_CLR        &rgb_ug RGB_TOG   &trans            &trans            &studio_unlock                                &kp LC(LEFT)  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(RIGHT)  &trans  &trans
                                             &trans            &trans            &trans                                        &trans        &mo 3            &trans
             >;
         };
