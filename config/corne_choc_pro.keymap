@@ -70,7 +70,7 @@
         };
 
         extra_layer_1 {
-            display-name = "EXTRA 1";
+            display-name = "TILING";
             bindings = <
 &kp F1  &kp F2            &kp F3          &kp F4          &kp F5          &kp F6          &trans  &trans  &kp F7          &kp F8          &kp F9          &kp F10         &kp F11         &kp F12
 &trans  &kp LA(NUMBER_1)  &kp LA(N2)      &kp LA(N3)      &kp LA(N4)      &kp LA(N5)      &trans  &trans  &kp LA(N6)      &kp LA(N7)      &kp LA(N8)      &kp LA(N9)      &kp LA(N0)      &trans
@@ -79,23 +79,13 @@
             >;
         };
 
-        extra_layer_6 {
-            display-name = "EXTRA 6";
-            bindings = <
-&trans  &trans  &trans     &trans        &trans          &trans     &tog 4  &trans  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &mkp RCLK  &msc SCRL_UP  &msc SCRL_DOWN  &mkp LCLK  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans  &trans     &trans        &trans          &trans                     &trans          &trans          &trans        &trans           &trans  &trans
-                           &trans        &trans          &trans                     &trans          &trans          &trans
-            >;
-        };
-
         extra_layer_2 {
-            display-name = "EXTRA 2";
+            display-name = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                  &trans  &trans  &trans
+&trans  &trans  &trans    &trans        &trans          &trans    &trans  &trans  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &mkp MB2  &msc SCRL_UP  &msc SCRL_DOWN  &mkp MB1  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans    &trans        &trans          &trans                    &trans          &trans          &trans        &trans           &trans  &trans
+                          &trans        &trans          &trans                    &trans          &trans          &trans
             >;
         };
 
@@ -121,6 +111,16 @@
 
         extra_layer_5 {
             display-name = "EXTRA 5";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                  &trans  &trans  &trans
+            >;
+        };
+
+        extra_layer_6 {
+            display-name = "EXTRA 6";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
